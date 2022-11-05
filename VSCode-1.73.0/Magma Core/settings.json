@@ -1,0 +1,81 @@
+{ /** Custom theme Magma Core by Telecorp **/
+    "workbench.colorTheme": "Magma Core",
+    "explorer.confirmDragAndDrop": false,
+    /** APPLE FONT (xcode style) : "SF Mono, monospace" **/
+    "editor.fontFamily": "SF Mono, monospace",
+    /** UPSCALED FONT FROM 12 TO 14 **/
+    "editor.fontSize": 14,
+
+    "workbench.colorCustomizations": {
+
+    /** EDITOR **/
+    "editor.background": "#2f2f2fff",
+    "editor.selectionBackground" : "#d1d1d13e",
+    // "editor.findMatchHighlightBackground" :"#ff0000",
+    // "editor.findMatchBackground":"#ff0000",
+
+    /** STATUS BAR **/
+    "statusBar.background": "#dc5800a0",
+
+    /** TEXT **/
+    "textLink.foreground":"#f97373",
+    "textPreformat.foreground":"#fd7f7f",
+    "textBlockQuote.background" :"#ff0000",
+    "textCodeBlock.background" :"#ff0000",
+    //"foreground": "#f57e2cff",
+    "textSeparator.foreground" :"#ff0000",
+
+    /** BUTTONS **/
+    "button.background": "#dc5e5ed5",
+    //"button.hoverBackground" :"#ff0000",
+    //"button.secondaryBackground" : "#ff0000",
+
+    /** DROPDOWN **/
+    "dropdown.background":"#d04242",
+    "dropdown.listBackground":"#ff0000",
+
+    /** WINDOW **/
+    //"window.activeBorder" : "#fc7921",
+
+    /** SMALL ELEMENTS BORDERS AND BACK/FORE COLORS **/
+    "focusBorder": "#ee4f4f",
+    "icon.foreground" :"#fd9999",
+    "descriptionForeground":"#ff0000",
+    //"widget.shadow": "#f57e2cff", //outline color of widgets appearing on top
+    "selection.background": "#f57e2cff", //background of selection of input
+    //"sash.hoverBorder": "#f57e2cff", //what?
+
+    /** TOOLBAR **/
+    "toolbar.hoverBackground" : "#f57c2c4d",
+    "toolbar.hoverOutline" : "#f57e2cff",
+    "toolbar.activeBackground": "#c86565",
+    //"badge.background" : "#ffffff",
+    "badge.foreground" :"#ffd817",
+
+    /** TREE **/
+    "list.activeSelectionBackground" :"#fcb5b55c",
+    "keybindingLabel.background":"#f9853879",
+    // "list.focusHighlightForeground" : "#ff0000",
+    // "list.focusBackground": "#ff0000",
+    },
+
+    /** SYNTAX COLOR **/
+    "editor.tokenColorCustomizations" : {
+        "comments": "#a4a3a3",
+        "strings": "#5693d1",
+        "functions": "#ff6d1e",
+        "keywords": "#ff4848",
+        "types": "#f0c127",
+        "numbers": "#2db2ff",
+        "variables": "#bc5555",
+    },
+
+    "workbench.iconTheme": "vs-seti"
+
+
+    // "editor.semanticTokenColorCustomizations": {
+    //     "[Rouge]": {
+    //         "enabled": true
+    //     }
+    // }
+}
