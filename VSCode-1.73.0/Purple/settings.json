@@ -1,0 +1,126 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    /** APPLE FONT (xcode style) : "SF Mono, monospace" **/
+    "editor.fontFamily": "SF Mono, monospace",
+    /** UPSCALED FONT FROM 12 TO 14 **/
+    "editor.fontSize": 14,
+
+    "workbench.colorCustomizations": {
+
+    /** EDITOR **/
+    "editor.background": "#190b3615",
+    "editor.selectionBackground" :  "#ff81c658",
+    // "editor.findMatchHighlightBackground" :"#7834c5",
+    // "editor.findMatchBackground":"#7834c5",
+
+    "sideBar.background": "#2117326b",
+
+    /** STATUS BAR **/
+    "statusBar.background": "#440686",
+
+    /** TEXT **/
+    "textLink.foreground":"#aa7cdf",
+    "textPreformat.foreground":"#aa7cdf",
+    "textBlockQuote.background" :"#aa7cdf",
+    "textCodeBlock.background" :"#7834c5",
+    //"foreground": "#f57e2cff",
+    "textSeparator.foreground" :"#7834c5",
+
+    /** BUTTONS **/
+    "button.background": "#aa7cdf",
+    //"button.hoverBackground" :"#7834c5",
+    //"button.secondaryBackground" : "#7834c5",
+
+    /** DROPDOWN **/
+    "dropdown.background":"#aa7cdf",
+    "dropdown.listBackground":"#7834c5",
+
+    /** WINDOW **/
+    //"window.activeBorder" : "#fc7921",
+
+    /** SMALL ELEMENTS BORDERS AND BACK/FORE COLORS **/
+    "focusBorder": "#aa7cdf",
+    "icon.foreground" :"#aa7cdf",
+    "descriptionForeground":"#7834c5",
+    //"widget.shadow": "#f57e2cff", //outline color of widgets appearing on top
+    "selection.background": "#ff81c689", //background of selection of input
+    //"sash.hoverBorder": "#f57e2cff", //what?
+
+    /** TOOLBAR **/
+    "toolbar.hoverBackground" : "#f57c2c4d",
+    "toolbar.hoverOutline" : "#c649e8",
+    "toolbar.activeBackground": "#ac60ca",
+    //"badge.background" : "#ffffff",
+    "badge.foreground" :"#ffd817",
+
+    /** TREE **/
+    "list.activeSelectionBackground" :"#fcb5b55c",
+    "keybindingLabel.background":"#f9853879",
+    // "list.focusHighlightForeground" : "#7834c5",
+    // "list.focusBackground": "#7834c5",
+    },
+
+    //OVERRIDE textMatesRules??
+    "editor.semanticTokenColorCustomizations": {
+      "rules": {
+        "variable": "#b4b7fff5",
+        "namespace": "#ff62f7"
+      }
+    },
+
+    /** SYNTAX COLOR **/
+    "editor.tokenColorCustomizations" : {
+        "comments": "#4be4ff",
+        "strings": "#ffebb3e9",
+        "functions": "#cd87ffd0",
+        "keywords": "#e4a7fff5",
+        "types": "#747b8ee5",
+        "numbers": "#ffffff",
+        "variables": "#b4b7fff5",
+        "textMateRules": [
+            {
+            //HTML -----------------------------
+              "scope": "entity.other.attribute-name, entity.tag.name, entity.name.tag.html",
+              "settings": {
+                "foreground": "#ae7cff"
+              }
+            },
+            //CSS ------------------------------
+            {
+                "scope": "support.constant.property-value.css, support.type.property-name.css ",
+                "settings": {
+                  "foreground": "#b082fbf5"
+                }
+            },
+            //JS -------------------------------
+            {
+                "scope": "entity.name.tag.js",
+                "settings": {
+                  "foreground": "#e5a7ff",
+                }
+            },
+            {
+              "scope": "variable.other.object.js, variable.other.readwrite.js, meta.definition.variable.js, meta.function-call.js",
+              "settings": {
+                "foreground": "#a5a8fcf5",
+              }
+            },
+            //JSON 
+            {
+                "scope": "support.type.property-name.json.comments",
+                "settings": {
+                  "foreground": "#e4a7fff5"
+                }
+            }
+          ]
+    },
+
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontLigatures": false
+
+    // "editor.semanticTokenColorCustomizations": {
+    //     "[Rouge]": {
+    //         "enabled": true
+    //     }
+    // }
+}

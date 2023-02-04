@@ -16,9 +16,13 @@ Dark blue IDE panes & editor background, main syntax colors: blue, white, yellow
 Dark grey IDE panes, sand editor background, main syntax colors: black, blue, orange
 - **available for** : XCode
 
+#### Purple
+Dark purple/grey panes with purple, pink and light blue elements.
+- **available for** : XCode, VSCode
+
 ### INSTALLATION: 
 
-- XCode: custom themes have to be put under :
+- XCode: custom themes have to be put under :/Users/xavierfostier/Developer
 */Users/yourAccount/Library/Developer/Xcode/UserData/FontAndColorThemes*
 (written for XCode 14.0.1)
 
