@@ -20,6 +20,10 @@ Dark grey IDE panes, sand editor background, main syntax colors: black, blue, or
 Dark purple/grey panes with purple, pink and light blue elements.
 - **available for** : XCode, VSCode
 
+#### Modern Steel
+White background with red/black/blue as dominants colors.
+- **available for** : XCode
+
 ### INSTALLATION: 
 
 - XCode: custom themes have to be put under :/Users/xavierfostier/Developer
