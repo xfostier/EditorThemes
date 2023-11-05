@@ -1,0 +1,190 @@
+{
+    // Font and IDE settings
+      "explorer.confirmDragAndDrop": false,
+      "workbench.iconTheme": "material-icon-theme",
+      "editor.fontLigatures": false,
+      "explorer.confirmDelete": false,
+      "editor.minimap.enabled": false,
+      "editor.bracketPairColorization.enabled": true,
+      "window.titleBarStyle": "custom",
+      "settingsSync.ignoredSettings": [
+
+      
+      ],
+      "settingsSync.ignoredExtensions": [
+      ],
+  
+      // Font
+      "editor.fontFamily": "LiterationMono Nerd Font Mono",
+      "editor.fontSize": 15,
+  
+      //COLOR BOX
+      "colors":{
+        "main_bg": "#05130f",
+        "menus_selections_bg": "#00363668",
+        "console_bg": "#013220",
+        "selection": "#eed2022e",
+        "menu_and_buttons": "#00746d",
+        "titles": "#008787",
+        "comments_and_miscs" :"#f9ff4b",
+        "separators": "#00746d",
+        "keywords": "#39ff14",
+        "variables": "#24ab24",
+        "function_calls": "#39ff14"
+      },
+  
+      "workbench.colorCustomizations": {
+  
+      // Editor
+      "editor.background": "#05130f",
+      "editor.selectionBackground" :  "#eed2022e",
+      "editorBracketHighlight.foreground1": "#cdffeead",
+      "editorBracketHighlight.foreground2": "#cdffeead",
+      "editorBracketHighlight.foreground3": "#cdffeead",
+  
+      // Terminal
+      "terminal.background": "#00130c",
+      "debug.console.fontSize": 16,
+  
+      // Window and small icons (APP)
+      "window.activeBorder": "#00746d",
+      "icon.foreground" :"#008787",
+  
+      // Title bar (FAR TOP)
+      "titleBar.activeBackground": "#191919cc",
+      "titleBar.activeForeground":"#ffffff",
+  
+      // Tabs (TOP)
+      "tab.activeBorder": "#90ee90",
+      "tab.activeBorderTop": "#90ee90",
+  
+      // Activity bar (FAR LEFT)
+      "activityBar.activeFocusBorder": "#90ee90",
+      "activityBarBadge.foreground": "#90ee90",
+      "activityBar.activeBorder": "#90ee90",
+  
+      // SideBar (LEFT)
+      "sideBar.background": "#05130f",
+      "sideBarSectionHeader.border": "#00746d",
+      "sideBarTitle.foreground": "#008787",
+      "sideBar.border": "#00746d",
+  
+      // Status bar and status item (BOTTOM)
+      "statusBar.background": "#00130c",
+      "statusBarItem.prominentForeground": "#90ee9079",
+      "statusBarItem.offlineBackground": "#90ee9079",
+      "statusBarItem.errorBackground": "#90ee9079",
+      "statusBarItem.prominentBackground": "#90ee9079",
+      "statusBarItem.activeBackground": "#90ee9079",
+      "statusBarItem.remoteBackground": "#90ee9079",
+      "statusBarItem.warningBackground": "#90ee9079",
+  
+      // Settings window
+      "settings.checkboxForeground": "#90ee90",
+      "settings.checkboxBorder": "#90ee90",
+  
+      // Buttons
+      "button.background": "#00746d",
+      "button.hoverBackground": "#90ee90",
+  
+      // Dropdowns
+      "dropdown.background":"#00746d",
+      "dropdown.listBackground":"#90ee90",
+  
+      // File Explorer
+      "list.activeSelectionBackground": "#00363668",
+  
+  
+      // OTHERS
+      "list.activeSelectionForeground": "#90ee90",
+      "list.activeSelectionIconForeground": "#90ee90",
+  
+      "panelTitle.activeBorder": "#90ee90",
+      "menu.background": "#90ee90",
+    
+  
+      /** SMALL ELEMENTS BORDERS AND BACK/FOREGROUND COLORS **/
+      "focusBorder": "#228b22",
+      "descriptionForeground":"#90ee90",
+      "selection.background": "#ff81c689", //background of selection of input
+  
+      /** TOOLBAR **/
+      "toolbar.hoverBackground" : "#f57c2c4d",
+      "toolbar.hoverOutline" : "#c649e8",
+      "toolbar.activeBackground": "#60ca80",
+      //"badge.background" : "#ffffff",
+      "badge.foreground" :"#ffd817",
+  
+      /** Classic text **/
+      "textLink.foreground":"#228b22",
+      "textPreformat.foreground":"#228b22",
+      "textBlockQuote.background" :"#228b22",
+      "textCodeBlock.background" :"#90ee90",
+      "textSeparator.foreground" :"#90ee90",
+      },
+  
+      // RUST ----------------
+
+
+      "[rust]": {
+        "editor.semanticHighlighting.enabled": true,
+        "editor.inlayHints.enabled": "off",
+      },
+      // OVERRIDE
+      "editor.semanticTokenColorCustomizations": {
+        "rules": {
+          "keyword": "#a837ff",
+          "macro": "#a837ff"
+        },
+      },
+      // -------------------------------------
+
+      /** SYNTAX COLOR **/
+      "editor.tokenColorCustomizations" : {
+          "comments": "#fee930d0",
+          "strings": "#ffebb3e9",
+          "functions": "#00af8f",
+          "keywords": "#a7ffc4f5",
+          "types": "#747b8ee5",
+          "numbers": "#ffffff",
+          "variables": "#b4b7fff5",
+         
+          "textMateRules": [
+              {
+              //HTML -----------------------------
+                "scope": "entity.other.attribute-name, entity.tag.name, entity.name.tag.html",
+                "settings": {
+                  "foreground": "#ae7cff"
+                }
+              },
+              //CSS ------------------------------
+              {
+                  "scope": "support.constant.property-value.css, support.type.property-name.css ",
+                  "settings": {
+                    "foreground": "#b082fbf5"
+                  }
+              },
+              //JS -------------------------------
+              {
+                  "scope": "entity.name.tag.js",
+                  "settings": {
+                    "foreground": "#e5a7ff",
+                  }
+              },
+              {
+                "scope": "variable.other.object.js, variable.other.readwrite.js, meta.definition.variable.js, meta.function-call.js",
+                "settings": {
+                  "foreground": "#a5a8fcf5",
+                }
+              },
+              //JSON 
+              {
+                  "scope": "support.type.property-name.json.comments",
+                  "settings": {
+                    "foreground": "#008787"
+                  }
+              }
+            ]
+      },
+  }
+  

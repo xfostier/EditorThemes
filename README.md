@@ -24,6 +24,10 @@ Dark purple/grey panes with purple, pink and light blue elements.
 White background with red/black/blue as dominants colors.
 - **available for** : XCode
 
+#### Pine Forest
+Dark green and deep blue green as dominants colors.
+- **available for** : VSCode
+
 ### INSTALLATION: 
 
 - XCode: custom themes have to be put under :/Users/xavierfostier/Developer
