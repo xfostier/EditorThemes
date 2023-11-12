@@ -26,7 +26,7 @@ White background with red/black/blue as dominants colors.
 
 #### Pine Forest
 Dark green and deep blue green as dominants colors.
-- **available for** : VSCode
+- **available for** : XCode, VSCode
 
 ### INSTALLATION: 
 
